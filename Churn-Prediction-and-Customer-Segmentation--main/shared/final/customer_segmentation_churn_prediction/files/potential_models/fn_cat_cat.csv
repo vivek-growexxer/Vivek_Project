@@ -1,0 +1,2 @@
+method,k_neighbour,train_accuracy,test_accuracy,roc_auc,precision_0,recall_0,f1_0,precision_1,recall_1,f1_1,ks_stat,p_value,tp,tn,fp,fn,model,sampling_method
+Approach_catboost_CLASSIFIER,457,0.961837,0.722,0.71939,0.908589,0.723792,0.80573,0.398085,0.714988,0.511424,0.450079,0,291,1153,440,116,catboost_classifier,smoteenn

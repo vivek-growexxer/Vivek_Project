@@ -1,0 +1,282 @@
+Only numerical features
+
+LOGISTIC_REGRESSION
+	SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 13.6648
+	ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 29.4405
+	BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 18.4073
+	KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 6.937
+	SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 21.5079
+	SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 102.194
+	SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 11.7742
+	SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 23.7913
+
+GAUSSIAN_NAIVE_BAYES
+	SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 10.8892
+	ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 27.9604
+	BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 13.3313
+	KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 4.0191
+	SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 22.0287
+	SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 103.3531
+	SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 11.2053
+	SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 22.587
+
+SUPPORT_VECTOR_CLASSIFIER
+	SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 2073.7638
+	ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 2642.3462
+	BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 2602.2021
+	KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 1425.9264
+	SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 236.0192
+	SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 3042.2511
+	SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 48.7951
+	SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 1567.0935
+
+
+
+CATBOOST_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 2257.8605
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 3080.4788
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 3128.7383
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 2646.6164
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 648.1229
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 5025.6311
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 866.4298
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 2695.9436
+
+
+GRADIENT_BOOSTING_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 562.5698
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 859.7575
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 758.4944
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 657.3679
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 268.9421
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1782.9219
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 195.9919
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 747.5664
+
+
+EXTRA_TREES_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 444.5272
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 698.8308
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 599.7772
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 476.1314
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 249.8353
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1536.5186
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 184.9632
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 633.7421
+
+
+ADA_BOOST
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 188.4628
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 340.7159
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 263.5211
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 221.564
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 182.1597
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 960.6724
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 113.317
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 297.4113
+
+
+RANDOM_FOREST_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 494.8368
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 797.0115
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 747.5026
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 584.7605
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 244.6761
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1867.8315
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 172.7333
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 683.785
+
+
+BALANCED_BAGGING_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 302.4064
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 490.806
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 361.3553
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 303.8001
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 232.5582
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1235.9661
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 138.5984
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 401.4929
+
+
+BALANCED_RANDOM_FOREST_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 734.827
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 1062.9264
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 980.3726
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 801.6336
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 301.2726
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 2067.2454
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 255.7491
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 981.7015
+
+
+LGBM_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 369.3055
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 552.7857
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 528.9461
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 432.6341
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 193.8404
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1153.4331
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 212.774
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 594.4832
+    
+    
+HIST_GRADIENT_BOOSTING_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 957.2764
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 1322.3689
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 1283.562
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 1103.0196
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 299.1091
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 2393.566
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 607.6238
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 1397.3123
+
+
+EASY_ENSEMBLE_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 1713.2067
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 2361.6947
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 2370.8417
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 2072.4319
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 512.7844
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 4037.3678
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 610.3934
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 2344.8591
+
+
+
+######################################################################################################################################
+
+With numerical + categorical features
+
+LOGISTIC_REGRESSION
+	SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 13.8597
+	ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 30.217
+	BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 17.742
+	KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 7.848
+	SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 28.0851
+	SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 105.6562
+	SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 11.9578
+	SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 25.7559
+
+GAUSSIAN_NAIVE_BAYES
+	SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 10.6487
+	ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 27.4606
+	BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 13.1439
+	KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 4.1276
+	SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 27.4975
+	SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 100.3573
+	SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 10.7748
+	SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 21.4561
+
+SUPPORT_VECTOR_CLASSIFIER
+	SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 2094.4942
+	ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 2800.0209
+	BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 2843.8837
+	KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 1649.8255
+	SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 273.4314
+	SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 3837.1181
+	SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 68.2819
+	SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 2339.8034
+
+
+RANDOM_FOREST_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 571.1693
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 838.1371
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 736.0174
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 623.1476
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 287.0018
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1656.1434
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 180.977
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 749.5131
+
+
+BALANCED_BAGGING_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 318.9767
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 561.5544
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 426.33
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 365.0376
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 311.5812
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1398.9343
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 154.2047
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 485.085
+
+
+LGBM_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 378.2435
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 619.3139
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 538.9916
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 480.5396
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 243.8322
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1231.8765
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 249.8387
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 625.0568
+
+
+ADA_BOOST
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 210.656
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 375.6551
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 281.2777
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 248.1022
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 244.6937
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1031.6264
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 122.4702
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 328.3424
+
+
+EXTRA_TREES_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 470.3419
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 755.2522
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 641.0027
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 498.6984
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 320.7561
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 1626.9143
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 195.6021
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 666.5296
+
+
+GRADIENT_BOOSTING_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 655.0537
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 993.8418
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 894.4012
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 764.7288
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 346.2531
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 2027.0007
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 231.6856
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 915.52
+    
+    
+BALANCED_RANDOM_FOREST_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 893.6106
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 1283.7086
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 1194.4063
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 979.8865
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 405.5284
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 2435.935
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 290.4978
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 1177.7752
+
+
+EASY_ENSEMBLE_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 2011.4094
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 2743.9843
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 2759.6805
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 2375.8382
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 642.1204
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 4691.08
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 708.0532
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 2804.9402
+
+
+CATBOOST_CLASSIFIER
+    SMOTE                :: Top_k_neighbour_count :: 283   :: Time :: 2366.1933
+    ADASYN               :: Top_k_neighbour_count :: 368   :: Time :: 3262.9079
+    BORDERLINE_SMOTE     :: Top_k_neighbour_count :: 393   :: Time :: 3317.217
+    KMEANS_SMOTE         :: Top_k_neighbour_count :: 338   :: Time :: 2814.0203
+    SMOTEN               :: Top_k_neighbour_count :: 62    :: Time :: 740.8736
+    SVMSMOTE             :: Top_k_neighbour_count :: 545   :: Time :: 5150.3931
+    SMOTEENN             :: Top_k_neighbour_count :: 234   :: Time :: 910.0591
+    SMOTETOMEK           :: Top_k_neighbour_count :: 475   :: Time :: 2848.647
+
+
+
+
+

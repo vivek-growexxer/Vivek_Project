@@ -1,0 +1,8 @@
+method,k_neighbour,train_accuracy,test_accuracy,roc_auc,precision_0,recall_0,f1_0,precision_1,recall_1,f1_1,ks_stat,p_value,tp,tn,fp,fn,model,sampling_method
+Approach_ada_BOOST,243,0.801256,0.7735,0.755377,0.917889,0.785938,0.846804,0.463836,0.724816,0.565676,0.526516,0.0,295,1252,341,112,ada_boost,borderline_smote
+Approach_easy_ENSEMBLE,243,0.801256,0.7735,0.755377,0.917889,0.785938,0.846804,0.463836,0.724816,0.565676,0.526516,0.0,295,1252,341,112,easy_ensemble_classifier,borderline_smote
+Approach_gradient_BOOSTING,354,0.819007,0.7885,0.762049,0.917857,0.806654,0.85867,0.486667,0.717445,0.57994,0.525354,0.0,292,1285,308,115,gradient_boosting_classifier,adasyn
+Approach_lgbm_CLASSIFIER,486,0.895234,0.783,0.753109,0.913633,0.803515,0.855043,0.477462,0.702703,0.568588,0.518287,0.0,286,1280,313,121,lgbm_classifier,smotetomek
+Approach_hist_GRADIENT,354,0.862917,0.7805,0.74971,0.912143,0.801632,0.853324,0.473333,0.697789,0.564052,0.514629,0.0,284,1277,316,123,hist_gradient_boosting_classifier,adasyn
+Approach_balanced_RANDOM,244,0.999785,0.7845,0.747648,0.909732,0.809793,0.856858,0.479381,0.685504,0.564206,0.501054,0.0,279,1290,303,128,balanced_random_forest_classifier,smotetomek
+Approach_balanced_BAGGING,316,0.988383,0.785,0.733328,0.900758,0.820465,0.858739,0.479053,0.646192,0.550209,0.466656,0.0,263,1307,286,144,balanced_bagging_classifier,borderline_smote

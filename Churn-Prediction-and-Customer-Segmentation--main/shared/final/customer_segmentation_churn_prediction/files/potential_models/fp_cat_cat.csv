@@ -1,0 +1,6 @@
+method,k_neighbour,train_accuracy,test_accuracy,roc_auc,precision_0,recall_0,f1_0,precision_1,recall_1,f1_1,ks_stat,p_value,tp,tn,fp,fn,model,sampling_method
+Approach_catboost_CLASSIFIER,285,0.931868,0.869,0.725693,0.880069,0.967357,0.921651,0.791165,0.484029,0.60061,0.576614,0,197,1541,52,210,catboost_classifier,smoten
+Approach_catboost_CLASSIFIER,1201,0.931083,0.8745,0.739207,0.885632,0.967357,0.924692,0.8,0.511057,0.623688,0.573941,0,208,1541,52,199,catboost_classifier,smoten
+Approach_catboost_CLASSIFIER,384,0.930691,0.873,0.732777,0.88279,0.96924,0.923998,0.804781,0.496314,0.613982,0.569459,0,202,1544,49,205,catboost_classifier,smoten
+Approach_catboost_CLASSIFIER,375,0.931162,0.8735,0.734006,0.883295,0.96924,0.924274,0.805556,0.498771,0.616085,0.567825,0,203,1544,49,204,catboost_classifier,smoten
+Approach_catboost_CLASSIFIER,376,0.932418,0.8695,0.727836,0.881007,0.966729,0.92188,0.789683,0.488943,0.603945,0.566036,0,199,1540,53,208,catboost_classifier,smoten
